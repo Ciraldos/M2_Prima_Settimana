@@ -37,6 +37,14 @@ main img{
     max-width: 100%;
 }
 
+#dynamic-img{
+    height: 500px;
+    width: 500px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background: url(https://palcedog.net/300);
+}
+
 /* GRAZIE ALLE MEDIA QUERIES "AGGIUSTIAMO" IL LAYOUT MOBILE PER RENDERLO MAGGIORNMENTE FRUIBILE SU SCHERMI DI PIù GRANDE DIMENSIONE (E PIù LARGHI) */
 
 /* Ipotizziamo un breakpoint xs/sm intorno ai 576 px (tablet piccoli) */
@@ -52,6 +60,14 @@ main img{
         display: inline;
         margin: 0 5px;
     }
+
+    #dynamic-img{
+        height: 500px;
+        width: 500px;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        background: url(https://palcedog.net/500);
+    }
 }
 
 /* Ipotizziamo un breakpoint sm/md intorno ai 768px (tablet grandi) */
@@ -66,6 +82,14 @@ main img{
     #img-container{
         text-align: center;
     }
+
+    #dynamic-img{
+        height: 500px;
+        width: 500px;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        background: url(https://palcedog.net/700);
+    }
 }
 
 /* Ipotizziamo un breakpoint sm/md intorno ai 992px (laptops/desktop) */
@@ -77,6 +101,13 @@ main img{
 
     footer{
         display: none;
+    }
+    #dynamic-img{
+        height: 500px;
+        width: 500px;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        background: url(https://palcedog.net/900);
     }
 }
 
