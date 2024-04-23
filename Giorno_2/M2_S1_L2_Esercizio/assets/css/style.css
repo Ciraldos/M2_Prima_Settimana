@@ -19,7 +19,11 @@ hr {
 /* HEADER */
 header {
   background: rgb(0, 160, 198);
-  background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 160, 198, 1) 0%,
+    rgba(3, 109, 134, 1) 68%
+  );
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -28,11 +32,11 @@ header {
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 10;
 }
 
-section{
+section {
   position: relative;
 }
 
@@ -46,7 +50,7 @@ section{
   box-shadow: 2px 2px #5a5a5a;
 }
 
-span{
+span {
   white-space: nowrap;
 }
 
@@ -136,7 +140,7 @@ section h2 {
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
-.under{
+.under {
   position: relative;
   z-index: 0;
 }
@@ -176,7 +180,7 @@ h1 + p {
     font-weight: 700;
   }
 
-  .under{  
+  .under {
     width: 100%;
     top: -25px;
   }
@@ -198,30 +202,28 @@ h1 + p {
     font-weight: 700;
   }
 
-  .under{  
+  .under {
     width: 100%;
     top: -30px;
   }
-  }
+}
 
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 3.6rem;
   }
-  .under{  
+  .under {
     top: -30px;
   }
 }
 
-
 @media screen and (min-width: 1068px) {
-  .under{  
+  .under {
     width: 51%;
     left: 453px;
     top: -40px;
   }
 }
-
 
 @media screen and (min-width: 1200px) {
   body {
@@ -277,7 +279,7 @@ iframe {
     height: 267px;
   }
 
-  .under{
+  .under {
     width: 48%;
     position: relative;
     left: 450px;
@@ -388,7 +390,11 @@ aside div p:last-child {
 /* FOOTER */
 footer {
   background: rgb(53, 53, 53);
-  background: linear-gradient(0deg, rgba(53, 53, 53, 1) 0%, rgba(5, 85, 103, 1) 68%);
+  background: linear-gradient(
+    0deg,
+    rgba(53, 53, 53, 1) 0%,
+    rgba(5, 85, 103, 1) 68%
+  );
   box-shadow: 0 3px 3px #444;
   color: #f0f0f0;
   padding: 1em;
@@ -436,11 +442,11 @@ footer {
   footer {
     padding: 1em 12em;
   }
-  .plus{
+  .plus {
     bottom: 90%;
   }
-  .calendar{
-    bottom:80%
+  .calendar {
+    bottom: 80%;
   }
 }
 
@@ -456,11 +462,11 @@ footer a {
     margin-left: auto;
     margin-right: auto;
   }
-  .plus{
+  .plus {
     bottom: 90%;
   }
-  .calendar{
-    bottom:80%
+  .calendar {
+    bottom: 80%;
   }
 }
 
