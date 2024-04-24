@@ -5,17 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Display-flex</title>
     <style>
+      header{
+        text-align: left;
+      }
       body{
+        color: white;
+        background-color: rgb(0, 0, 0);
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 1.3em;
       }
 
-      img{
-        margin-left: 30%;
+      a:hover{
+        text-decoration: none;
+        color: rebeccapurple;
+      }
+      
+      a{
+        color: white;
+        font-size: 2em;
+        margin: 0 auto;
       }
     </style>
   </head>
   <body>
+    <header>
     <p>
       Tutti gli elementi a cui applicheremo la proprietà display-flex, essi si
       chiameranno flex-children. Flexbox è uno strumento per layout
@@ -38,12 +54,14 @@
 
       Justify content lavora sulla main axis, allign items lavora sulla cross axis. Queste proprietà vengono utilizzate per centrare
       gli elementi. <br><br>
-
+      </p>
+    </header>
+      <a href="https://codepen.io/enxaneta/pen/adLPwv">Test Proprietà Parents/Child</a><br>
       <div>
         <h2>Proprietà per i flex parents</h2>
         <img src="./container_properties.webp" alt="properties">
       </div><br>
-      <a href="https://codepen.io/enxaneta/pen/adLPwv">Test Varie Proprietà</a><br>
+      
       <div>
         <h2>Proprietà per i flex childrens</h2>
         <img src="./child_properties.webp" alt="properties">
