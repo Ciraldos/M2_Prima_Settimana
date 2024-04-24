@@ -1,0 +1,44 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #612406;
+}
+nav {
+    background: #eed15f42;
+    padding: 0.5em 0;
+    border-radius: 90px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: #612406;
+    flex-wrap: wrap;
+  }
+
+  #bee{
+    border-radius: 80px;
+    width: 252px;
+    height: 100px;
+    font-size: 2.3em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  img{
+    width: 34%;
+  }
+  nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ffd11785;
+    height: 50px;
+    width: 150px;
+  }
+
