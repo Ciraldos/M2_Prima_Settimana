@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    margin:0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Header*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.1em;
+    border-bottom: 1px solid black;
+    background-color: #ffc017;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li{
+    margin-left: 2em;
+    color: black;
+}
+
+#getStarted{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+}
+
+/* Main */
+
+main #started{
+    padding: 0 15%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    background-color: #ffc017;
+}
+#sez{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sez h2{
+    font-family: "Spectral", serif;
+    font-size: 6em;
+    font-weight: 500;
+}
+
+#sez h3{
+    font-size: 1.5em;
+    margin:40px 0;
+}
+
+#sez a{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid black;    
+    color: white;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+}
+
+svg{
+    transform: translate3d(0px, 0px, 0px);
+    content-visibility: visible;
+}
+
+/* trending */
+
+#tr{
+    padding: 0 15%;
+}
+
+#trendtext{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    font-weight: 500;
+}
+#trendtext img{
+    margin-right: 1em;
+}
+
+#trendtext h4{
+    font-size: 0.9em;
+}
+
+#trends{
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+.trend{
+    width: 29%;
+    display: flex;
+    margin-right: 2em;
+}
+.num{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-right: 0.7em;
+    color: #F2F2F2;
+}
+.singletrend{
+    margin-bottom: 2em;
+}
+.singletrend h4{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.singletrend h4 span{
+    font-weight: normal;
+    margin: 0 4px;
+}
+
+
+.singletrend h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.singletrend img{
+    margin-right: 6px;
+    border-radius: 50%;
+    width: 18px;
+}
+
+.trendspan{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    color: #949494;
+}
+
+
