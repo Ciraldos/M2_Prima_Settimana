@@ -93,6 +93,7 @@ svg{
 
 #tr{
     padding: 0 15%;
+    border-bottom: 2px solid #F2F2F2;
 }
 
 #trendtext{
@@ -110,7 +111,7 @@ svg{
 }
 
 #trends{
-    margin-top: 2em;
+    margin: 2em 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -133,6 +134,7 @@ svg{
 }
 .singletrend h4{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 10px;
     font-weight: bold;
@@ -140,7 +142,8 @@ svg{
 
 .singletrend h4 span{
     font-weight: normal;
-    margin: 0 4px;
+    margin: 0 3px;
+    color:#757575 ;
 }
 
 
@@ -158,9 +161,16 @@ svg{
 
 .trendspan{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     font-weight: 300;
     color: #949494;
 }
+.trendspan span{
+    margin-right: 5px;
+}
 
-
+/* articoli */
+#ar{
+    display: flex;
+    padding: 0 15%;
+}
