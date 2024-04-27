@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body{
+    width: 100%;
     margin:0 auto;
     font-family: "Roboto", sans-serif;
 }
@@ -19,6 +20,9 @@ header{
     z-index: 1;
 }
 
+svg{
+    margin-top: 2%
+}
 nav a{
     text-decoration: none;
     list-style: none;
@@ -50,9 +54,9 @@ nav ul li{
 /* Main */
 
 main #started{
-    padding: 0 15%;
+    padding: 0 0 0 15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     border-bottom: 1px solid black;
     background-color: #ffc017;
 }
@@ -60,11 +64,13 @@ main #started{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 6%;
 }
 #sez h2{
+    margin-top: 20%;
     font-family: "Spectral", serif;
-    font-size: 6em;
-    font-weight: 500;
+    font-size: 6rem;
+    font-weight: 520;
 }
 
 #sez h3{
@@ -132,7 +138,7 @@ svg{
 .singletrend{
     margin-bottom: 2em;
 }
-.singletrend h4{
+.autors{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -140,7 +146,7 @@ svg{
     font-weight: bold;
 }
 
-.singletrend h4 span{
+.autors span{
     font-weight: normal;
     margin: 0 3px;
     color:#757575 ;
@@ -153,7 +159,7 @@ svg{
     font-size: 1.2em;
 }
 
-.singletrend img{
+.imgicon{
     margin-right: 6px;
     border-radius: 50%;
     width: 18px;
@@ -163,7 +169,7 @@ svg{
     display: flex;
     align-items: center;
     font-weight: 300;
-    color: #949494;
+    color: #a0a0a0;
 }
 .trendspan span{
     margin-right: 5px;
@@ -173,4 +179,82 @@ svg{
 #ar{
     display: flex;
     padding: 0 15%;
+}
+
+
+#int a{
+    color: #a0a0a0;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #F2F2F2;
+    border-radius: 8px; 
+}
+
+.article{
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#articles{
+    margin-bottom: 3em;
+    width: 180%;
+}
+
+#articles .trendspan{
+    font-size: 0.8em;
+}
+
+
+.singlearticle h2{
+    font-size: 0.9em;
+}
+
+.singlearticle h3{
+    margin: 14px 0 7px 0;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.singlearticle h4{
+    margin-bottom: 10px;
+}
+.photos{
+    margin-left:3em;
+    height: 123px;
+    width: 175px;
+}
+#interest{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    position: sticky;
+    top: 40px;
+}
+
+#interest h3{
+    font-weight: bold;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+#int {
+    line-height: 3em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+#links{
+    margin-top: 2em;
+}
+
+#links a{
+    text-align: center;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: #a0a0a0;
+    margin-right: 2em;
 }
