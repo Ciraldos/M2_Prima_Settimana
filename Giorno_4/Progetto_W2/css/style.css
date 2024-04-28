@@ -17,7 +17,7 @@ header{
     background-color: #ffc017;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     transition: 0.2s;
 }
 .nav-scroll {
@@ -202,8 +202,8 @@ main #started{
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    border: 2px solid #F2F2F2;
-    border-radius: 8px; 
+    border: 1px solid #dfdfdf;
+    border-radius: 5px; 
 }
 
 .article{
@@ -225,12 +225,12 @@ main #started{
 }
 
 .imp{
-    background-color: #f7f7f7;
-    border-radius: 20px;
-    border: 1px solid #cfcfcf;
+    background-color: #f2f0f0;
+    border-radius: 20px;   
     cursor: pointer;
-    padding: 1px 5px;
+    padding: 5px 7px;
 }
+
 
 .bookmark{
     display: flex;
@@ -286,6 +286,10 @@ main #started{
     margin-top: 2em;
 }
 
+#star{
+    display: none;
+}
+
 #links a{
     text-align: center;
     line-height: 1.5em;
@@ -299,6 +303,14 @@ main #started{
     main #started{
         width:100%;
         padding: 0 0 0 7%;
+    }
+
+    nav ul li{
+        margin-left: 1.5em;
+    }
+
+    #getStarted{
+        width: 100px;
     }
 
     nav a:nth-of-type(1){
@@ -341,8 +353,12 @@ main #started{
         width: 100vw;
     }
 
+    #star{
+        display:block;
+    }
+
     #tr{
-        padding: 0 7%;
+        padding: 0 4%;
     }
 
     #articles{
@@ -378,6 +394,7 @@ main #started{
         margin-top: 27%;
     }
 
+  
     #sez h3{
         padding-right: 10%;
     }
@@ -417,7 +434,11 @@ main #started{
     #articles{
         width: 100%;
     }
+    #star{
+        display:block;
+    }
 }
+
 
 @media screen and (min-width: 769px) and (max-width:992px) {
 
@@ -480,6 +501,10 @@ main #started{
 
     #articles{
         width: 100%;
+    }
+    
+    #star{
+        display:block;
     }
 }
 
