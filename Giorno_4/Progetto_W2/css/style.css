@@ -18,6 +18,14 @@ header{
     align-items: center;
     position: fixed;
     z-index: 1;
+    transition: 0.2s;
+}
+.nav-scroll {
+    background-color: #ffffff; 
+}
+.nav-scroll2 {
+    background-color: #1a8197; 
+    
 }
 
 svg{
@@ -90,9 +98,8 @@ main #started{
     justify-content: center;
 }
 
-svg{
-    transform: translate3d(0px, 0px, 0px);
-    content-visibility: visible;
+#svg{
+    background-color: #ffc017;
 }
 
 /* trending */
@@ -165,6 +172,12 @@ svg{
     width: 18px;
 }
 
+.square{
+    margin-right: 6px;
+    border-radius: 5px;
+    width: 18px;
+}
+
 .trendspan{
     display: flex;
     align-items: center;
@@ -172,6 +185,8 @@ svg{
     color: #a0a0a0;
 }
 .trendspan span{
+    display: flex;
+    align-items: center;
     margin-right: 5px;
 }
 
@@ -204,9 +219,28 @@ svg{
 }
 
 #articles .trendspan{
+    display: flex;
+    justify-content: space-between;
     font-size: 0.8em;
 }
 
+.imp{
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    padding: 1px 5px;
+}
+
+.bookmark{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.singlearticle{
+    width: 100%;
+}
 
 .singlearticle h2{
     font-size: 0.9em;
@@ -220,6 +254,7 @@ svg{
 
 .singlearticle h4{
     margin-bottom: 10px;
+    color: rgb(160, 160, 160);
 }
 .photos{
     margin-left:3em;
@@ -258,3 +293,195 @@ svg{
     color: #a0a0a0;
     margin-right: 2em;
 }
+
+@media screen and (max-width: 576px) {
+
+    main #started{
+        width:100%;
+        padding: 0 0 0 7%;
+    }
+
+    nav a:nth-of-type(1){
+        display: none;
+    }
+    
+    nav a:nth-of-type(2){
+        display: none;
+    }
+    nav a:nth-of-type(3){
+        display: none;
+    }
+    svg{
+        display: none;
+    }
+
+    #sez h2{
+        font-size: 5em;
+        margin-top: 27%;
+    }
+
+    #sez h3{
+        padding-right: 10%;
+    }
+
+    #ar{
+        flex-direction: column-reverse;
+        padding: 0 2%;
+    }
+
+    #interest{
+        position: static;
+        height: 0%;
+    }
+    
+    #trends{
+        display: block;
+    }
+    .trend{
+        width: 100vw;
+    }
+
+    #tr{
+        padding: 0 7%;
+    }
+
+    #articles{
+        width: 100%;
+    }
+
+    .singletrend .autors img{
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:768px) {
+
+    main #started{
+        width:100%;
+        padding: 0 0 0 7%;
+    }
+    
+    #getStarted{
+        width:105px;
+    }
+    
+    header nav ul{
+        font-size: 0.8em;
+    }
+
+    header nav ul li{
+        margin-left: 1.1em;
+    }
+    #sez h2{
+        padding-right: 10%;
+        font-size: 4.5em;
+        margin-top: 27%;
+    }
+
+    #sez h3{
+        padding-right: 10%;
+    }
+
+    #ar{
+        flex-direction: column-reverse;
+        padding: 0 2%;
+    }
+
+    #interest{
+        position: static;
+        height: 0%;
+    }
+    
+    #links a{
+        font-size: 0.98em;
+        margin-right: 0.6em;
+    }
+
+    #links a:last-child{
+        margin-right: 0;
+    }
+   
+    .trend{
+        width: 41%;
+    }
+
+    #tr{
+        padding: 0 7%;
+    }
+
+    #trends{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #articles{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:992px) {
+
+    main #started{
+        width:100%;
+        padding: 0 0 0 7%;
+    }
+    
+    #getStarted{
+        width:105px;
+    }
+    
+    header nav ul{
+        font-size: 0.8em;
+    }
+
+    header nav ul li{
+        margin-left: 1.1em;
+    }
+    #sez h2{
+        padding-right: 10%;
+        font-size: 4.5em;
+        margin-top: 27%;
+    }
+
+    #sez h3{
+        padding-right: 10%;
+    }
+
+    #ar{
+        flex-direction: column-reverse;
+        padding: 0 2%;
+    }
+
+    #interest{
+        position: static;
+        height: 0%;
+    }
+    
+    #links a{
+        margin-right: 1.91em;
+    }
+
+    #links a:last-child{
+        margin-right: 0;
+    }
+   
+    .trend{
+        width: 41%;
+    }
+
+    #tr{
+        padding: 0 7%;
+    }
+
+    #trends{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #articles{
+        width: 100%;
+    }
+}
+
+
+    
